@@ -1,0 +1,118 @@
+import { Module } from "../types";
+
+export const modules: Module[] = [
+  {
+    id: "growth-engine",
+    name: "Growth Engine",
+    description: "Accelerate customer acquisition with AI-powered growth strategies and automated campaign optimization.",
+    icon: "TrendingUp",
+    color: "emerald",
+    stats: [
+      { label: "Active Campaigns", value: "24", change: "+3" },
+      { label: "Conversion Rate", value: "12.4%", change: "+2.1%" },
+      { label: "Monthly Growth", value: "34%", change: "+8%" },
+    ],
+    features: [
+      "Automated A/B testing",
+      "Predictive analytics",
+      "Customer journey mapping",
+      "Real-time optimization",
+      "Multi-channel orchestration",
+    ],
+  },
+  {
+    id: "sales-pipeline",
+    name: "Sales Pipeline",
+    description: "Streamline your sales process with intelligent lead scoring and pipeline management tools.",
+    icon: "Filter",
+    color: "blue",
+    stats: [
+      { label: "Open Deals", value: "156", change: "+12" },
+      { label: "Pipeline Value", value: "$2.4M", change: "+$340K" },
+      { label: "Win Rate", value: "68%", change: "+5%" },
+    ],
+    features: [
+      "AI lead scoring",
+      "Deal velocity tracking",
+      "Forecasting models",
+      "Automated follow-ups",
+      "Revenue intelligence",
+    ],
+  },
+  {
+    id: "content-ops",
+    name: "Content Ops",
+    description: "Create, manage, and optimize content at scale with AI-assisted content operations.",
+    icon: "FileText",
+    color: "violet",
+    stats: [
+      { label: "Content Pieces", value: "892", change: "+45" },
+      { label: "Avg. Engagement", value: "4.2K", change: "+18%" },
+      { label: "Publish Rate", value: "94%", change: "+3%" },
+    ],
+    features: [
+      "AI content generation",
+      "Editorial calendar",
+      "SEO optimization",
+      "Content analytics",
+      "Asset management",
+    ],
+  },
+  {
+    id: "analytics-hub",
+    name: "Analytics Hub",
+    description: "Unified analytics dashboard bringing together all your marketing data and insights.",
+    icon: "BarChart",
+    color: "amber",
+    stats: [
+      { label: "Data Sources", value: "18", change: "+2" },
+      { label: "Reports Generated", value: "342", change: "+28" },
+      { label: "Insights Found", value: "1.2K", change: "+156" },
+    ],
+    features: [
+      "Cross-platform analytics",
+      "Custom dashboards",
+      "Automated reporting",
+      "Anomaly detection",
+      "ROI tracking",
+    ],
+  },
+  {
+    id: "automation-center",
+    name: "Automation Center",
+    description: "Build powerful marketing automations without code using our visual workflow builder.",
+    icon: "Zap",
+    color: "rose",
+    stats: [
+      { label: "Active Workflows", value: "67", change: "+8" },
+      { label: "Tasks Automated", value: "12.4K", change: "+1.8K" },
+      { label: "Time Saved", value: "340h", change: "+52h" },
+    ],
+    features: [
+      "Visual workflow builder",
+      "Trigger automation",
+      "Conditional logic",
+      "Integration connectors",
+      "Performance monitoring",
+    ],
+  },
+  {
+    id: "customer-insights",
+    name: "Customer Insights",
+    description: "Deep dive into customer behavior with AI-powered insights and segmentation.",
+    icon: "Users",
+    color: "cyan",
+    stats: [
+      { label: "Profiles Enriched", value: "45.2K", change: "+3.1K" },
+      { label: "Segments", value: "28", change: "+4" },
+      { label: "Prediction Accuracy", value: "94%", change: "+2%" },
+    ],
+    features: [
+      "Customer 360 view",
+      "Behavioral segmentation",
+      "Churn prediction",
+      "Lifetime value models",
+      "Personalization engine",
+    ],
+  },
+];
